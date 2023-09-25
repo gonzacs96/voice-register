@@ -1,0 +1,38 @@
+{
+  "notFoundId": "",
+  "plainResult": {
+    "status": "Processed",
+    "videoIndexerId": "id",
+    "name": "name",
+    "duration": "duration",
+    "fileId": "fileId",
+    "transcriptVersions":[]
+  },
+  "results": [
+    {
+      "id": "1",
+      "status": "Processed",
+      "videoIndexerId": "id-1",
+      "name": "result-1",
+      "duration": "duration-1",
+      "fileId": "fileId-1"
+    }
+  ],
+  "tokenPayload": {
+    "id": "1",
+    "email": "mail@mail.com",
+    "iat": 6,
+    "exp": 7
+  },
+  "defaults": {
+    "createResultDto": {
+      "status": "Processed",
+      "videoIndexerId": "id",
+      "name": "name",
+      "duration": "duration",
+      "version": "version",
+      "fileId": "fileId",
+      "projectId": "1"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "anotherUserId": "2",
+  "anotherUserProjects": [
+    {
+      "project": {
+        "id": "1",
+        "name": "project-1",
+        "description": "description-1",
+        "results": [
+          {
+            "id": "1",
+            "status": "Processed",
+            "videoIndexerId": "id-1",
+            "name": "result-1",
+            "duration": "duration-1",
+            "fileId": "fileId-1"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedUserProject": {
+    "project": { "name": "userProject", "description": "userProject", "results": [] }
+  },
+  "createdUserProject": {
+    "project": { "name": "userProject", "description": "userProject", "results": [] }
+  },
+  "notFoundId": "",
+  "userProject": {
+    "id": "1",
+    "project": {
+      "id": "1",
+      "name": "project-1",
+      "description": "description-1",
+      "results": [
+        {
+          "id": "1",
+          "status": "Processed",
+          "videoIndexerId": "id-1",
+          "name": "result-1",
+          "duration": "duration-1",
+          "fileId": "fileId-1"
+        }
+      ]
+    }
+  },
+  "tokenPayload": { "id": "1", "email": "mail@mail.com", "iat": 6, "exp": 7 },
+  "userProjects": [
+    {
+      "id": "1",
+      "project": {
+        "id": "1",
+        "name": "project-1",
+        "description": "description-1",
+        "results": [
+          {
+            "id": "1",
+            "status": "Processed",
+            "videoIndexerId": "id-1",
+            "name": "result-1",
+            "duration": "duration-1",
+            "fileId": "fileId-1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "project": { "id": "2", "name": "project-2", "description": "description-2", "results": [] }
+    }
+  ],
+  "defaults": {
+    "createUserProjectDTO": { "name": "userProject", "description": "userProject" },
+    "addUserToProjectDTO": { "userId": "2" }
+  }
+}
